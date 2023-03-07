@@ -3,13 +3,13 @@
 
 var randomNumber1 = Math.floor(Math.random() * 6) + 1;  // 1- 6 
 
-var randomDiceImage = "dice" + randomNumber1 + ".png" //dice1.png - dice6.png
+var randomDiceImage1 = "dice" + randomNumber1 + ".png" //dice1.png - dice6.png
 
-var randomImageSource = "images/" + randomDiceImage;  //images/dice6.png
+var randomImageSource1 = "images/" + randomDiceImage1;  //images/dice6.png
 
 var image1 = document.querySelectorAll("img")[0];
 
-image1.setAttribute("src", randomImageSource);
+image1.setAttribute("src", randomImageSource1);
 
 //for the dice2
 
